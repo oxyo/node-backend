@@ -1,0 +1,18 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Docker workshop backend app",
+  "main": "app.js",
+  "scripts": {
+    "start": " node app.js",	  
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "oxyo",
+  "license": "MIT",
+  "dependencies": {
+    "better-sqlite3": "^4.1.0",
+    "commander": "^2.15.1",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {}
+}
